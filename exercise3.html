@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="Description" content="JSON to HTML table with filter"/>
+        <meta name="author" content="Intan Permata" />
+        <title>JSON to HTML</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    </head>
+    <body>
+        <h2>PLANET LIST</h2>
+        <input id='userInput' onkeyup='searchTable()' type='text' placeholder="Type to filter, e.g. 'alderaan' or 'temperate'">
+        </br>
+        </br>
+        <table id="displayTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Rotation Period</th>
+                    <th>Orbital Period</th>
+                    <th>Diameter</th>
+                    <th>Climate</th>
+                    <th>Gravity</th>
+                    <th>Terrain</th>
+                    <th>Surface Water</th>
+                    <th>Population</th>
+                </tr>
+            </thead>
+            <tbody id="displayBody">
+
+            </tbody>
+        </table>
+        <script type="text/javascript" src="exercise3.js"></script>
+        <footer>
+            <p>JSON to HTML &copy; Intan Permata </p>
+        </footer>
+    </body>
+</html>
